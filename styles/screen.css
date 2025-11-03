@@ -1,7 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #5d6a75;
     padding: 0 40px;
     text-align: center;
 }
@@ -10,7 +10,7 @@ nav {
     margin: 40px auto 0 auto;
     width: 450px;
     border-radius: 50px;
-    background: #212431;
+    background: #2db380;
 }
 
 nav ul {
@@ -28,7 +28,7 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: #3a3a3d;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -47,4 +47,15 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+
+.homeImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    margin: 20px;
 }
