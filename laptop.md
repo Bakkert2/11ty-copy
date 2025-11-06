@@ -3,4 +3,4 @@ layout: layout.liquid
 title: About laptop
 ---
 
-<img alt="laptop" src="/images/laptop.jpg" width="400">
+<img class="itempagephoto" alt="laptop" src="/images/laptop.jpg" width="400">

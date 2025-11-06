@@ -11,14 +11,7 @@ title: 11ty Boilerplate
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/earbuds/" title="About earbuds">Earbuds</a></li>
-      <li><a href="/laptop/" title="About laptop">Laptop</a></li>
-      <li><a href="/keys/" title="About keys">Keys</a></li>
-    </ul>
-  </nav>
+    {% include  'nav' %}
     {{ content }}
 </body>
 </html>
